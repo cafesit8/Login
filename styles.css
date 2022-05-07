@@ -31,8 +31,8 @@ body{
 }
 
 figure{
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     position: absolute;
     border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -40,7 +40,7 @@ figure{
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
     overflow: hidden;
-    top: -6em;
+    top: -4em;
     z-index: 2;
 }
 figure img{
@@ -53,6 +53,9 @@ h1{
     text-align: center;
     margin-top: 2em;
     color: white;
+    font-family: 'Lobster', cursive;
+    font-size: 2.5em;
+    font-weight: 100;
 }
 
 form{
@@ -83,7 +86,7 @@ label{
 
  form button{
      align-self: center;
-     margin-top: 5px;
+     margin-top: 10px;
      height: 2.5em;
      border-radius: 3px;
      -webkit-border-radius: 3px;
