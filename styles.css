@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://w.wallhaven.cc/full/ey/wallhaven-ey5rzr.jpg");
+    background-size: cover;
+}
+
+.cuerpo{
+    width: 25em;
+    height: 60%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.8);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+figure{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    overflow: hidden;
+    top: -6em;
+    z-index: 2;
+}
+figure img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+h1{
+    text-align: center;
+    margin-top: 2em;
+    color: white;
+}
+
+form{
+    width: 85%;
+    height: 100%;
+    padding-top: 1.5em;
+}
+
+label{
+    font-size: 1.5em;
+    font-family: cursive;
+    color: white;
+}
+ form input{
+     height: 40px;
+     width: 100%;
+     border: none;
+     border-bottom: solid 1px white;
+     font-size: 18px;
+     font-family: cursive;
+     margin-bottom: 15px;
+     outline: none;
+     background: none;
+     color: white;
+ }
+
+ form button{
+     margin-top: 20px;
+     height: 2.5em;
+     border-radius: 3px;
+     -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+     -ms-border-radius: 3px;
+     -o-border-radius: 3px;
+     width: 100%;
+     font-size: 20px;
+     margin-bottom: 20px;
+     background-color: rgba(147, 223, 47, 0.7);
+     border: none;
+}
+
+a{
+    display: block;
+    margin-top: 10px; 
+    color: #BCBAB6;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+}
