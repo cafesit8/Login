@@ -16,7 +16,7 @@ body{
 
 .cuerpo{
     width: 25em;
-    height: 60%;
+    height: 30em;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
